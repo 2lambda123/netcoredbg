@@ -1,0 +1,232 @@
+repo_name: 2lambda123/netcoredbg
+report_id: 8b6301323a3cb50401ed35c37ba91656
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T06:54:37+00:00'
+requested_by: gbalykov
+provider: github
+branch: master
+detected_tools_count: 18
+tools:
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/2lambda123/netcoredbg
+  detection_source: Repo Metadata
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/2lambda123/netcoredbg
+  detection_source: Repo Metadata
+- name: C++
+  description: Has imperative, object-oriented and generic programming features, while
+    also providing the facilities for low level memory manipulation
+  website_url: http://www.cplusplus.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/2lambda123/netcoredbg
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/2lambda123/netcoredbg
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/2lambda123/netcoredbg/blob/master/test-suite/NetcoreDbgTest/NetcoreDbgTest.csproj
+  detection_source: test-suite/NetcoreDbgTest/NetcoreDbgTest.csproj
+  last_updated_by: a-shaurtaev
+  last_updated_on: 2022-03-11 16:25:54.000000000 Z
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '3.1'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/2lambda123/netcoredbg/blob/master/test-suite/CLITestBreakpoint/CLITestBreakpoint.csproj
+  detection_source: test-suite/CLITestBreakpoint/CLITestBreakpoint.csproj
+  last_updated_by: Mikhail Kurinnoi
+  last_updated_on: 2023-08-10 14:08:25.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/2lambda123/netcoredbg/blob/master/src/managed/ManagedPart.csproj
+  detection_source: test-suite/CLITestBreakpoint/CLITestBreakpoint.csproj
+  last_updated_by: Mikhail Kurinnoi
+  last_updated_on: 2023-08-10 14:08:25.000000000 Z
+- name: CMake
+  description: 'An open-source system that manages the build process '
+  website_url: http://www.cmake.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/2424/0UlUI_y1_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/netcoredbg
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/netcoredbg
+  detection_source: Repo Metadata
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/netcoredbg/blob/master/test-suite/NetcoreDbgTest/NetcoreDbgTest.csproj
+  detection_source: test-suite/NetcoreDbgTest/NetcoreDbgTest.csproj
+  last_updated_by: Mikhail Kurinnoi
+  last_updated_on: 2019-04-10 14:56:01.000000000 Z
+- name: Roslyn
+  description: Open-source C# and Visual Basic compilers with rich code analysis APIs
+  website_url: https://github.com/dotnet/roslyn
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/20930/default_275fb27c037c57f3394917ebca90dc2465c97ed8.png
+  detection_source_url: https://github.com/2lambda123/netcoredbg/blob/master/test-suite/NetcoreDbgTest/NetcoreDbgTest.csproj
+  detection_source: test-suite/NetcoreDbgTest/NetcoreDbgTest.csproj
+  last_updated_by: Mikhail Kurinnoi
+  last_updated_on: 2019-04-10 14:56:01.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/2lambda123/netcoredbg/blob/master/test-suite/test-suite.sln
+  detection_source: test-suite/test-suite.sln
+  last_updated_by: Mikhail Kurinnoi
+  last_updated_on: 2019-04-10 14:56:01.000000000 Z
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/2lambda123/netcoredbg
+  detection_source: Repo Metadata
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/netcoredbg
+  detection_source: Repo Metadata
+- name: Microsoft.CodeAnalysis
+  description: ".NET Compiler Platform"
+  package_url: https://www.nuget.org/Microsoft.CodeAnalysis
+  version: 2.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13228/default_44258eb565a346d4baf5243c0df2a219253fec1a.png
+  detection_source_url: https://github.com/2lambda123/netcoredbg/blob/master/test-suite/NetcoreDbgTest/NetcoreDbgTest.csproj
+  detection_source: test-suite/NetcoreDbgTest/NetcoreDbgTest.csproj
+  last_updated_by: a-shaurtaev
+  last_updated_on: 2022-03-11 16:25:54.000000000 Z
+- name: Microsoft.CodeAnalysis.CSharp
+  description: ".NET Compiler Platform"
+  package_url: https://www.nuget.org/Microsoft.CodeAnalysis.CSharp
+  version: 2.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12967/default_bd8397841d0aa5de035298a9130ee2dc9d9b0ece.png
+  detection_source_url: https://github.com/2lambda123/netcoredbg/blob/master/test-suite/NetcoreDbgTest/NetcoreDbgTest.csproj
+  detection_source: test-suite/NetcoreDbgTest/NetcoreDbgTest.csproj
+  last_updated_by: a-shaurtaev
+  last_updated_on: 2022-03-11 16:25:54.000000000 Z
+- name: Microsoft.CodeAnalysis.CSharp.Features
+  description: ".NET Compiler Platform"
+  package_url: https://www.nuget.org/Microsoft.CodeAnalysis.CSharp.Features
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14547/default_8cc049a431381a977f6d2527a0530d69d5056b9a.png
+  detection_source_url: https://github.com/2lambda123/netcoredbg/blob/master/test-suite/NetcoreDbgTest/NetcoreDbgTest.csproj
+  detection_source: test-suite/NetcoreDbgTest/NetcoreDbgTest.csproj
+  last_updated_by: a-shaurtaev
+  last_updated_on: 2022-03-11 16:25:54.000000000 Z
+- name: Newtonsoft.Json
+  description: Json.NET is a popular high-performance JSON framework for .NET
+  package_url: https://www.nuget.org/Newtonsoft.Json
+  version: 13.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/nuget/image.png
+  detection_source_url: https://github.com/2lambda123/netcoredbg/blob/master/test-suite/NetcoreDbgTest/NetcoreDbgTest.csproj
+  detection_source: test-suite/NetcoreDbgTest/NetcoreDbgTest.csproj
+  last_updated_by: a-shaurtaev
+  last_updated_on: 2022-03-11 16:25:54.000000000 Z
