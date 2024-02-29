@@ -2,7 +2,7 @@ repo_name: 2lambda123/netcoredbg
 report_id: 8b6301323a3cb50401ed35c37ba91656
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-09T06:54:37+00:00'
+timestamp: '2024-02-29T19:16:46+00:00'
 requested_by: gbalykov
 provider: github
 branch: master
@@ -96,7 +96,7 @@ tools:
   last_updated_by: Mikhail Kurinnoi
   last_updated_on: 2023-08-10 14:08:25.000000000 Z
 - name: CMake
-  description: 'An open-source system that manages the build process '
+  description: An open-source system that manages the build process
   website_url: http://www.cmake.org/
   open_source: false
   hosted_saas: false
